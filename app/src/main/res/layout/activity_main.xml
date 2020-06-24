@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24"
+            android:textColor="#555555"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="0"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="15"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="30"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="45"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="60"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="75"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="90"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="105"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="120"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="135"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="150"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="165"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="180"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="195"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="210"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="225"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="240"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="255"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="270"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="285"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="300"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="315"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="330"
+            app:layout_constraintCircleRadius="175dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="345"
+            app:layout_constraintCircleRadius="175dp" />
+
+
+        <!--        Image-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="345"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="15"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="0"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="30"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="15"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="45"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="30"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="60"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="45"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="75"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="60"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="75"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="105"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="90"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="120"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="105"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="135"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="120"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="150"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="135"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="165"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="150"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="165"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="195"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="180"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="210"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="195"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="225"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="210"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="240"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="225"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="255"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="240"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="270"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="255"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="285"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="270"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="300"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="285"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="315"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="300"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="330"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="315"
+            app:layout_constraintCircleRadius="150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="345"
+            android:src="@drawable/ic_block"
+            app:layout_constraintCircle="@id/tvTime"
+            app:layout_constraintCircleAngle="330"
+            app:layout_constraintCircleRadius="150dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>\
