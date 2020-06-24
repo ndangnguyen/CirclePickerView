@@ -308,7 +308,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="0"
+            android:rotation="-4"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="345"
@@ -317,7 +317,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="15"
+            android:rotation="8"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="0"
@@ -326,7 +326,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="30"
+            android:rotation="24"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="15"
@@ -335,7 +335,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="45"
+            android:rotation="40"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="30"
@@ -344,7 +344,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="60"
+            android:rotation="56"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="45"
@@ -353,7 +353,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="75"
+            android:rotation="70"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="60"
@@ -362,7 +362,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="90"
+            android:rotation="85"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="75"
@@ -371,7 +371,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="105"
+            android:rotation="98"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="90"
@@ -380,7 +380,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="120"
+            android:rotation="115"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="105"
@@ -389,7 +389,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="135"
+            android:rotation="130"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="120"
@@ -398,7 +398,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="150"
+            android:rotation="145"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="135"
@@ -407,7 +407,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="165"
+            android:rotation="160"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="150"
@@ -416,7 +416,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="180"
+            android:rotation="175"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="165"
@@ -425,7 +425,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="195"
+            android:rotation="190"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="180"
@@ -434,7 +434,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="210"
+            android:rotation="205"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="195"
@@ -443,7 +443,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="225"
+            android:rotation="220"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="210"
@@ -452,7 +452,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="240"
+            android:rotation="235"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="225"
@@ -461,7 +461,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="255"
+            android:rotation="250"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="240"
@@ -470,7 +470,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="270"
+            android:rotation="265"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="255"
@@ -479,7 +479,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="285"
+            android:rotation="280"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="270"
@@ -488,7 +488,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="300"
+            android:rotation="292"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="285"
@@ -497,8 +497,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="315"
-            android:src="@drawable/ic_block"
+            android:rotation="307"
+            android:src="@drawable/ic_block_disable"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="300"
             app:layout_constraintCircleRadius="150dp" />
@@ -506,7 +506,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="330"
+            android:rotation="325"
             android:src="@drawable/ic_block"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="315"
@@ -515,11 +515,11 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="345"
-            android:src="@drawable/ic_block"
+            android:rotation="340"
+            android:src="@drawable/ic_block_disable"
             app:layout_constraintCircle="@id/tvTime"
             app:layout_constraintCircleAngle="330"
             app:layout_constraintCircleRadius="150dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</FrameLayout>\
+</FrameLayout>
